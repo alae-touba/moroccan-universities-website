@@ -1,0 +1,74 @@
+body {
+	/*background-color: #fafafa;*/
+	/*background-color: #e9ebee;*/
+	background-color: #e9eef3;
+}
+
+.container-classroom {
+	margin-top: 85px;
+}
+.forum-infos-title {
+	color: #315896;
+	font-style: italic;
+}
+
+body a {
+	text-decoration: none;
+	color: #333;
+}
+
+body a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+/* style du page university.php */
+.div-class {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	padding: 15px;
+}
+.university-profile-section {
+	padding: 10px 25px;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*style du page class.php and posts.php */
+.div-post {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	padding: 15px;
+}
+.class-profile-section {
+	padding: 10px 25px;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	color: white;
+}
+
+.class-profile-section a {
+	color: white;
+}
+
+.class-profile-section a:hover {
+	color: white;
+}
+
+/*followed_classes.php*/
+.followed-class-div {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-left: 6px solid #2841a2;
+	background-color: #cfd1d7;
+	border-radius: 6px;
+}
+
+.follow_class:visited {
+	color: none;
+}
+.follow_class:hover {
+	text-decoration: none;
+}
+
+/* profil.php */
