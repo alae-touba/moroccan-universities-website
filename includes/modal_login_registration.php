@@ -63,16 +63,16 @@ if ($place === 'project') {
 			<div class="modal-body">
 
 				<form method="post" action="<?=$treatment_data_relative_link?>" class="form-group" enctype="multipart/form-data" >
-					<input type="text" name="user_firstname" class="form-control" placeholder="firstname" required>
+					<input type="text" name="user_firstname" class="form-control" placeholder="prenom" required>
 					<br>
 
-					<input type="text" name="user_lastname" class="form-control" placeholder="lastname" required>
+					<input type="text" name="user_lastname" class="form-control" placeholder="nom" required>
 					<br>
 
 					<input type="email" name="user_email" class="form-control" placeholder="email" required>
 					<br>
 
-					<input type="password" name="user_password" class="form-control" placeholder="password" required>
+					<input type="password" name="user_password" class="form-control" placeholder="mot de passe" required>
 					<br>
 
 					photo du profil

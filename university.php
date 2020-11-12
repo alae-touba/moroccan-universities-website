@@ -105,9 +105,10 @@
 							      <div class="modal-body">
 							      	<form action="./includes/add_class.php" method="post">
 							      		<input type="text" name="class_name" class="form-control" placeholder="nom de la classe" required>
+										<br>
 
-							      		<textarea name="class_description" class="form-control" placeholder="une description a propos du contenu de la classe" required=""></textarea>
-
+							      		<textarea name="class_description" class="form-control" placeholder="une description a propos du 	contenu de la classe" required=""></textarea>
+										<br>
 							      		<input type="hidden" id="" name="class_university_id" value="<?=$the_university_id;?>">
 
 

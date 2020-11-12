@@ -113,6 +113,7 @@
 
 									<div class="modal-body">
 										<form action="./includes/add_post.php" method="post" enctype="multipart/form-data">
+											<input type="hidden" name="class_id" value="<?php echo $the_class_id; ?>">
 											titre:
 											<input type="text" name="post_title" class="form-control" placeholder="titre du publication">
 											<br>
